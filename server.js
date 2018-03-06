@@ -6,10 +6,8 @@ var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')));
 
-
-// Store our v1_routes file in the variable named "routes".
+// Store our all_routes file in the variable named "routes".
 var routes = require('./routes/all_routes');
 
 // Tell our server to use the all_routes file for all incoming requests that start with "/".

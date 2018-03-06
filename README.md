@@ -7,6 +7,7 @@ This project holds a very simple Node Website example.
 In your terminal:
 
 npm install
+
 node index.js
 
 ## Files
